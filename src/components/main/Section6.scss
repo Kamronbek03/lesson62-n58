@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../../assets/fonts/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Section6 {
+  margin: 0 auto;
+  padding: 0 110px;
+  background-color: #f7f9fc;
+  .container {
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    .content {
+      display: flex;
+      justify-content: space-between;
+      padding: 131px 0 112px;
+      .text-content {
+        padding-top: 56.5px;
+        h2 {
+          font-family: Roboto;
+          font-size: 48px;
+          font-weight: 700;
+          color: #211f54;
+          margin-bottom: 32.5px;
+        }
+        p {
+          max-width: 484.5px;
+          width: 100%;
+          font-family: Roboto;
+          font-size: 21px;
+          font-weight: 400;
+          color: #6e7191;
+          margin-bottom: 31.5px;
+        }
+        .tell {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 16px;
+          margin-bottom: 30.5px;
+          .text-tell {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            pre {
+              font-family: Roboto;
+              font-size: 16px;
+              color: #6e7191;
+            }
+            a {
+              text-decoration: none;
+              font-family: Roboto;
+              font-size: 28px;
+              font-weight: 700;
+              color: #211f54;
+            }
+          }
+        }
+        pre {
+          max-width: 486.5px;
+          width: 100%;
+          border: 1px solid #dcddeb;
+          margin-bottom: 55px;
+        }
+        h3 {
+          font-family: Roboto;
+          font-size: 28px;
+          font-weight: 700;
+          color: #211f54;
+          margin-bottom: 9px;
+        }
+        button {
+          padding: 27px 39px;
+          border: 1px solid #eff0f6;
+          box-shadow: 0px 4px 10px 0px #14142b0a;
+          border-radius: 14px;
+          border: none;
+          background-color: #fff;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 700;
+          color: #211f54;
+        }
+      }
+      form {
+        max-width: 673px;
+        width: 100%;
+        border: 1px solid #eff0f6;
+        box-shadow: 0px 2px 6px 0px #14142b0a;
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 85px 61px;
+        .part {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+          .part2 {
+            display: flex;
+            flex-direction: column;
+            input {
+              max-width: 259px;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

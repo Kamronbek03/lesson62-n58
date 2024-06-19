@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../../assets/fonts/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Section3 {
+  margin: 0 auto;
+  padding: 0 110px;
+  .container {
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 155px;
+    margin-bottom: 147px;
+    .text-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 29px 0;
+      margin-bottom: 48px;
+      h2 {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        color: #211f54;
+        cursor: pointer;
+      }
+      button {
+        padding: 27px 39px;
+        border-radius: 14px;
+        border: 1px solid #eff0f6;
+        box-shadow: 0px 4px 10px 0px #14142b0a;
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 18px;
+        color: #211f54;
+        cursor: pointer;
+      }
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .card {
+        max-width: 388px;
+        width: 100%;
+        padding: 49px 38px 29px;
+        border: 1px solid #eff0f6;
+        box-shadow: 0px 2px 6px 0px #14142b0a;
+        background-color: #fff;
+        p {
+          font-family: Roboto;
+          font-size: 21px;
+          text-align: center;
+          color: #6e7191;
+          margin-top: 13px;
+        }
+        h3 {
+          font-family: Roboto;
+          font-size: 24px;
+          font-weight: 700;
+          text-align: center;
+          color: #211f54;
+          margin-top: 24px;
+        }
+        img {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
